@@ -1,6 +1,6 @@
 # Hitcircle and cursor generator for OSU! game. Very WIP
 
-Try here: https://mister-click.github.io/gumdrop/
+Try here: https://moseyjwi.github.io/gumdrop-1/
 
 <img width="256" height="256" alt="circle_1" src="https://github.com/user-attachments/assets/ff947d2c-a2af-4968-90e1-557b8ab1e016" />
 <img width="256" height="256" alt="circle_2" src="https://github.com/user-attachments/assets/033a5d9f-ab10-4210-8e95-5004e98da5bc" />
