@@ -9,7 +9,7 @@ Try here: https://mister-click.github.io/gumdrop/
 
 
 # Working
-- HitCircle, HitCircleOverylay, ApproachCircle, Default-num, 70 fonts
+- HitCircle, HitCircleOverylay, ApproachCircle, Default-num, 70 amazing open fonts made by the people who designed them.
 - Generation now by SDFs. (outdated images above)
 - Dot center
 - TripleStack (only lol)
