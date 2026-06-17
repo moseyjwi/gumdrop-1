@@ -9,27 +9,28 @@ Try here: https://mister-click.github.io/gumdrop/
 
 
 # Working
-- HitCircle, HitCircleOverylay, ApproachCircle, Default-x
-- Crisp generation by SDF (outdated images above) 
+- HitCircle, HitCircleOverylay, ApproachCircle, Default-num, 70 fonts
+- Generation now by SDFs. (outdated images above)
+- Dot center
 - TripleStack (only lol)
-- Separated default-x (for fun color blending stuff with TS/IF skins)
+- Separated default-num and overlay-on-top support, for fun combo color stuff with TS/IF skins.
 
-# Partial
-- InstaFade, currently you must manually match your layers. 
+# Partial/buggy
+- InstaFade
 
 # Missing
-- Non-TripleStack rendering
-- Cursor generation UI
-- Legible UI
-- Glass / fresnel / glow effects
-- Dot
+- Non-TripleStack :^)
+- Auto scaling SDF bounds
+- UI for cursor generation
+- Glass / Glow / Metallic effect.
 
 # Priority
-1. Non-TripleStack
-2. Instafade
-3. Dot
-4. UI upgrade
-5. Effects
-6. Cursor UI
-7. More circle and cursor generation styles/effects
-8. UI upgrade
+- User fonts if Github would let me.
+- Normal circles lol
+- Fix Instafade render logic, and do a thorough testing of cases.
+- Fix UI a little
+- Auto scaling if it's easy
+- Effects
+- Cursor UI
+- More styles/effects, decals.
+- Redo the UI to look like Lazer
