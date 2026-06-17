@@ -13,7 +13,7 @@ Try here: https://mister-click.github.io/gumdrop/
 
 # Working
 - HitCircle, HitCircleOverylay, ApproachCircle, Default-num, 70 amazing open fonts made by the people who designed them.
-- Generation now by SDFs. (outdated images above)
+- Generation now by SDFs.
 - Dot center
 - TripleStack (only lol)
 - Separated default-num and overlay-on-top support, for fun combo color stuff with TS/IF skins.
