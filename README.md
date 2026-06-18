@@ -36,5 +36,5 @@ Try here: https://moseyjwi.github.io/gumdrop-1/
 - Auto scaling if it's easy
 - Effects
 - Cursor UI
-- More styles/effects, decals.
+- More styles/effects
 - Redo the UI to look like Lazer
