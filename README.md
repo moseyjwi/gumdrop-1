@@ -20,6 +20,7 @@ Try here: https://moseyjwi.github.io/gumdrop-1/
 
 # Partial/buggy
 - InstaFade
+- Lots
 
 # Missing
 - Non-TripleStack :^)
