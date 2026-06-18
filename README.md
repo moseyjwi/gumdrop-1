@@ -24,6 +24,7 @@ Try here: https://moseyjwi.github.io/gumdrop-1/
 
 # Missing
 - Non-TripleStack :^)
+- Font scaling
 - Auto scaling SDF bounds
 - UI for cursor generation
 - Glass / Glow / Metallic effect.
@@ -33,6 +34,7 @@ Try here: https://moseyjwi.github.io/gumdrop-1/
 - Normal circles lol
 - Fix Instafade render logic, and do a thorough testing of cases.
 - Fix UI a little
+- Font scaling
 - Auto scaling if it's easy
 - Effects
 - Cursor UI
