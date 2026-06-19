@@ -1,35 +1,41 @@
 # Hitcircle and cursor generator for OSU! game. Very WIP
 
-Try here: https://mister-click.github.io/gumdrop/
+Try here: https://moseyjwi.github.io/gumdrop-1/
 
-![scircle](https://github.com/user-attachments/assets/425eeed7-5ec4-4808-a8eb-9567c595b2dc)
-![scarlble](https://github.com/user-attachments/assets/bf1ed141-12a9-4942-84a7-cfdb68a0cb97)
+<img width="256" height="256" alt="circle_1" src="https://github.com/user-attachments/assets/ff947d2c-a2af-4968-90e1-557b8ab1e016" />
+<img width="256" height="256" alt="circle_2" src="https://github.com/user-attachments/assets/033a5d9f-ab10-4210-8e95-5004e98da5bc" />
+<img width="256" height="256" alt="circle_3" src="https://github.com/user-attachments/assets/23b8f25c-d12d-4a29-b3f1-e692041f83b2" />
+
 ![gumdropSolarCursor](https://github.com/user-attachments/assets/d58abf8f-bb25-4213-84b2-1db3f440f68c)
 ![gumdropButtonCursor](https://github.com/user-attachments/assets/d4df146b-7b31-4646-a0d3-4d28e7ae740a)
 
 
-# Working
-- HitCircle, HitCircleOverylay, ApproachCircle, Default-x
-- Crisp generation by SDF (outdated images above) 
-- TripleStack (only lol)
-- Separated default-x (for fun color blending stuff with TS/IF skins)
 
-# Partial
-- InstaFade, currently you must manually match your layers. 
+# Working
+- HitCircle, HitCircleOverylay, ApproachCircle, Default-num, 70 amazing open fonts made by the people who designed them.
+- Generation now by SDFs.
+- Dot center
+- TripleStack (only lol)
+- Separated default-num and overlay-on-top support, for fun combo color stuff with TS/IF skins.
+
+# Partial/buggy
+- InstaFade
+- Lots
 
 # Missing
-- Non-TripleStack rendering
-- Cursor generation UI
-- Legible UI
-- Glass / fresnel / glow effects
-- Dot
+- Non-TripleStack :^)
+- Font scaling
+- Auto scaling SDF bounds
+- UI for cursor generation
+- Glass / Glow / Metallic effect.
 
 # Priority
-1. Non-TripleStack
-2. Instafade
-3. Dot
-4. UI upgrade
-5. Effects
-6. Cursor UI
-7. More circle and cursor generation styles/effects
-8. UI upgrade
+- Normal circles lol
+- Fix Instafade render logic, and do a thorough testing of cases.
+- Fix UI a little
+- Font scaling
+- Auto scaling if it's easy
+- Effects
+- Cursor UI
+- More styles/effects
+- Redo the UI to look like Lazer
