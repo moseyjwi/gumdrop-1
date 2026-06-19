@@ -30,7 +30,6 @@ Try here: https://moseyjwi.github.io/gumdrop-1/
 - Glass / Glow / Metallic effect.
 
 # Priority
-- User fonts if Github would let me.
 - Normal circles lol
 - Fix Instafade render logic, and do a thorough testing of cases.
 - Fix UI a little
