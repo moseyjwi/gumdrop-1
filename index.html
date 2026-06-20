@@ -94,31 +94,51 @@ body {
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
 <link rel="manifest" href="index.manifest.json">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+
 <script>
-function exportToZip(data) {
+async function exportToZip(data) {
 	try {
-		const parsed = typeof data === "string" ? JSON.parse(data) : data;
+		const parsed = (typeof data === "string") ? JSON.parse(data) : data;
+
 		const zip = new JSZip();
-		for (const file of parsed.files) {
+
+		for (const file of (parsed.files || [])) {
 			const binary = atob(file.b64);
 			const bytes = new Uint8Array(binary.length);
+
 			for (let i = 0; i < binary.length; i++) {
 				bytes[i] = binary.charCodeAt(i);
 			}
+
 			zip.file(file.name, bytes);
 		}
-		zip.generateAsync({ type: "blob" }).then(blob => {
-			const url = URL.createObjectURL(blob);
-			const a = document.createElement('a');
-			a.href = url;
-			a.download = "gumdrop_export.zip";
-			document.body.appendChild(a);
-			a.click();
-			a.remove();
+
+		const blob = await zip.generateAsync({ type: "blob" });
+
+		const url = URL.createObjectURL(blob);
+
+		const a = document.createElement("a");
+		a.href = url;
+		a.download = "gumdrop_export.zip";
+
+		// attach first (some browsers require it)
+		document.body.appendChild(a);
+
+		// trigger download
+		a.dispatchEvent(new MouseEvent("click", {
+			bubbles: true,
+			cancelable: true,
+			view: window
+		}));
+
+		// cleanup delayed (avoid race with download)
+		setTimeout(() => {
 			URL.revokeObjectURL(url);
-		});
+			a.remove();
+		}, 2000);
+
 	} catch (err) {
-		console.error("JS exportToZip failed:", err);
+		console.error("exportToZip failed:", err);
 	}
 }
 </script>
@@ -140,7 +160,7 @@ function exportToZip(data) {
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":11088280,"index.wasm":39509339},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4,"serviceWorker":"index.service.worker.js"};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":11088568,"index.wasm":39509339},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4,"serviceWorker":"index.service.worker.js"};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
