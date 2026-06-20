@@ -13,13 +13,11 @@
 
 
 # Working
-- HitCircle, HitCircleOverylay, ApproachCircle, Default-num, 70 amazing open fonts made by the people who made them.
 - InstaFade
-- TripleStack
+- TripleStack, + Separate default-x
 - Dot center
 - SDF
 
-- Separated default-num for TS/IF skins.
 
 # Partial/buggy
 - Lots
