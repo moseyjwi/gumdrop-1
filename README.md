@@ -12,12 +12,13 @@
 
 
 
-# Working
+# Working/Features
 - InstaFade
 - TripleStack, + Separate default-x
-- Dot center
-- SDF
-
+- Bevel / Emboss
+- Dot
+- Clear
+- 70 Fonts
 
 # Partial/buggy
 - Lots
