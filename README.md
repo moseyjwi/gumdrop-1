@@ -22,10 +22,12 @@
 
 # Partial/buggy
 - Lots
+- Caching settings
 
 # Missing
+- User fonts
 - Font scaling
-- Auto scaling SDF bounds
+- Auto scaling bounds
 - UI for cursor generation
 - Glass / Glow / Metallic effects.
 
@@ -33,7 +35,7 @@
 - Thorough testing of cases and bug fixes
 - UI
 - Font scaling
-- Auto scaling if it's easy
+- Auto scaling
 - Effects
 - Cursor UI
 - More styles/effects
