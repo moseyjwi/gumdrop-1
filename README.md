@@ -1,6 +1,7 @@
 # Hitcircle and cursor generator for OSU! game. Very WIP
 
-Try here: https://moseyjwi.github.io/gumdrop-1/
+[Try here](https://moseyjwi.github.io/gumdrop-1/)
+
 
 <img width="256" height="256" alt="circle_1" src="https://github.com/user-attachments/assets/ff947d2c-a2af-4968-90e1-557b8ab1e016" />
 <img width="256" height="256" alt="circle_2" src="https://github.com/user-attachments/assets/033a5d9f-ab10-4210-8e95-5004e98da5bc" />
@@ -12,26 +13,25 @@ Try here: https://moseyjwi.github.io/gumdrop-1/
 
 
 # Working
-- HitCircle, HitCircleOverylay, ApproachCircle, Default-num, 70 amazing open fonts made by the people who designed them.
-- Generation now by SDFs.
+- HitCircle, HitCircleOverylay, ApproachCircle, Default-num, 70 amazing open fonts made by the people who made them.
+- InstaFade
+- TripleStack
 - Dot center
-- TripleStack (only lol)
-- Separated default-num and overlay-on-top support, for fun combo color stuff with TS/IF skins.
+- SDF
+
+- Separated default-num for TS/IF skins.
 
 # Partial/buggy
-- InstaFade
 - Lots
 
 # Missing
-- Non-TripleStack :^)
 - Font scaling
 - Auto scaling SDF bounds
 - UI for cursor generation
-- Glass / Glow / Metallic effect.
+- Glass / Glow / Metallic effects.
 
 # Priority
-- Normal circles lol
-- Fix Instafade render logic, and do a thorough testing of cases.
+- Thorough testing of cases and bug fixes
 - Fix UI a little
 - Font scaling
 - Auto scaling if it's easy
