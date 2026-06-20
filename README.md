@@ -31,7 +31,7 @@
 
 # Priority
 - Thorough testing of cases and bug fixes
-- Fix UI a little
+- UI
 - Font scaling
 - Auto scaling if it's easy
 - Effects
