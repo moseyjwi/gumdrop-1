@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1781908078|11114574115';
+const CACHE_VERSION = '1781957791|2508346631';
 /** @type {string} */
 const CACHE_PREFIX = 'Gumdrop-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
